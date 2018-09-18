@@ -1,14 +1,14 @@
 //1. Data types
 //light switch: boolean
-let switch = true //true means on, false means off
+const lightSwitch = true; //true means on, false means off
 //email: string
 let email = "joe@joe.com"
 //spaceship: object
 const spaceship = {
-	hull:,
-	laserBlasters:,
-	tractorBeam:,
-	warpDrive:
+	hull: "metal",
+	laserBlasters: 4,
+	tractorBeam: "5TW",
+	warpDrive: "ludicrous"
 }
 //name list: array
 const nameArray = ["Ashley","Chris","John"]
@@ -32,3 +32,14 @@ const nameLocationShowsArray =
 		location: "Boston",
 		shows: ["South Park","Planet Earth"]}
 	]
+
+//2. Take it Easy
+const rainbow = ["red","orange","yellow","green","blue","indigo","violet"];
+console.log(rainbow[4]);
+const chris = {
+	favFood: "duck",
+	hobby: "weightlifting",
+	town: "Chicago",
+	favDatatype: "boolean"
+}
+console.log(chris.hobby);
