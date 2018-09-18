@@ -146,9 +146,12 @@ for(let i = 0; i < bondFilms.length; i++) {
 	}
 }
 
-
-
-
+//7.
+let grossSum = 0;
+for(let i = 0; i < bondFilms.length; i++) {
+	grossSum += Number(bondFilms[0].gross.substring(1).replace(/,/g,""));
+}
+console.log(grossSum);
 
 
 
